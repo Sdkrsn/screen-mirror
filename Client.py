@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 import struct
 
-def start_client(server_ip='192.168.1.100', server_port=12345):
+def start_client(server_ip='192.168.63.53', server_port=12345):
     # Initialize pygame
     pygame.init()
     screen = pygame.display.set_mode((800, 600))
